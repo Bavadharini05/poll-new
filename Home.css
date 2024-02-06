@@ -1,0 +1,42 @@
+/* src/components/Home.css */
+
+.container {
+  position: relative;
+  height: 100vh;
+  background: url('../images/360_F_389618887_PImTbyGB4vTQOoGKxjhOKp2w7hZmcNAs.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #001f3f; /* Deep blue text color */
+}
+
+.container h1 {
+  font-size: 2.5rem; /* Adjust the font size as needed */
+  margin-bottom: 1rem;
+  color: #0f0f0f; /* Light blue for "Welcome" line */
+}
+
+.container p {
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  margin-bottom: 2rem;
+  color: #2a3135; /* Light blue for "Create Poll" line */
+}
+
+.container div {
+  margin-top: 2rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: #132735; /* Complementary link color, for example, a light blue */
+  font-weight: bold;
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.container a:hover {
+  color: #2980b9; /* Slightly darker link color on hover */
+}
